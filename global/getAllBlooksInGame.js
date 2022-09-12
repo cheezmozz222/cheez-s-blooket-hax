@@ -9,10 +9,10 @@
                 return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
             };
 
-            if (!window.location.pathname.split('/').includes('lobby')) return alert('You must be in a game lobby! (e.g. https://www.blooket.com/play/lobby)');
+            if (!window.location.pathname.split('/').includes('lobby')) return alert('YOU ARE NOT IN A LOBBY GRAHH (e.g. https://www.blooket.com/play/lobby)');
 
             reactHandler().stateNode.setState({ lockedBlooks: [], takenBlooks: [] });
-            alert('Blooks unlocked!');
+            alert('Ya got ur blooks bozo!');
 })();
 
 
